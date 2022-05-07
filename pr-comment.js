@@ -1,4 +1,4 @@
-const { REPO_OWNER, REPO_SIGNOZ_CODE, REPO_SIGNOZ_DOCS, BOT_DOCS_COMMENT } = require('./constants')
+const { REPO_OWNER, REPO_SIGNOZ_CODE, BOT_DOCS_COMMENT, pr_number } = require('./constants')
 const ghapi = require('./githubapi').default
 
 try {
