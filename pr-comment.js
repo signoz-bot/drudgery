@@ -10,5 +10,5 @@ try {
     }).then(resp => console.log(resp)).catch(e => console.error(e))
 }
 catch (e) {
-    console.error(err)
+    console.error(e)
 }
