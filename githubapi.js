@@ -1,7 +1,7 @@
 const { Octokit } = require("octokit");
 
 const octokit = new Octokit({ auth: process.env.GITHUB_ACCESS_TOKEN });
-
+console.log(process.env.GITHUB_ACCESS_TOKEN)
 module.exports = {
     default: octokit
 }
